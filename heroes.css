@@ -1,0 +1,95 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+.rounded-i {
+  border-radius: 1.5rem;
+}
+.rounded-b {
+  border-radius: 7px;
+}
+
+.bg-dark-l {
+  background-color: #111215;
+}
+
+.btn:hover {
+  border: 1px solid rgba(0,0,0,.4) !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.025)!important;
+}
+
+a:hover { 
+  transition: color .15s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .25s ease-in-out;
+}
+
+.lead-t {
+  color: #495057 !important;
+  font-size: 1.5rem;
+}
+
+.f-color {
+  color: #3D444B;
+  font-size: 17px;
+}
+
+.bd-footer {
+  font-size: 1rem;
+  color: #63707c;
+}
+
+.bd-footer-links {
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.bd-footer-links li+li {
+  margin-left: 1rem;
+}
+
+.bd-footer-links li {
+  display: inline-block;
+}
+
+.bd-footer a {
+  font-weight: 600;
+  color: #495057;
+  text-decoration: none;
+}
+
+.bd-footer a:hover {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.color-fg-muted {
+  color: #5B6067;
+}
+
+.octicon {
+  fill: currentColor;
+}
+
+.f3-mktg a {
+  color: #000;
+  text-decoration: none;
+}
+
+.f3-mktg a:hover {
+  color: #0d6efd;
+}
+
+.text-muted a {
+  text-decoration: none;
+}
+
+.text-muted a:hover {
+  color: #0d6efd;
+}
